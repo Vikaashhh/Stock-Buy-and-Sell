@@ -1,0 +1,12 @@
+** Problem Statement (Simplified):
+
+You are given an array of integers where each element represents the stock price on a given day. You are allowed to buy and sell the stock multiple times. Your goal is to maximize the total profit.
+You can only sell a stock after you buy it.
+Buy one and sell one share of the stock multiple times.
+
+
+** Approach:
+
+1. Buy when you see next day price is higher
+2. Sell on that next day
+3. Add the profit prices[i+1] - prices[i] to total profit
